@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Body and container */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-align: center;
+  display: block;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Product div */
+.product {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  margin: 0;
+}
+
+.product h5,
+.product h6 {
+  margin: 5px 0;
+}
+
+.product img {
+  width: 10%;
+}
+
+#cancelButton {
+  padding: 1rem;
+  transition: 0.5s;
+  border: none;
+}
+
+#cancelButton:hover {
+  background-color: rgb(205, 154, 255);
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  #container {
+    padding: 10px;
+  }
+
+  .product {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .product img {
+    margin-bottom: 5px;
+  }
+}
